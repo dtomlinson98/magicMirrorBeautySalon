@@ -10,9 +10,5 @@ services:
     volumes:
       - .:/var/www/html
     # Add environment variables if needed
-    #environment:
-    # - USERNAME=quotesdb_dlo9_user
-    #- PASSWORD=a15XdHSunN6pxwnJRddymmpgXqbkYUna
-    #- DBNAME=quotesdb_dlo9
-    #- HOST=dpg-cnj7u0ud3nmc73dgcntg-a.oregon-postgres.render.com
-    #- PORT=5432
+    # environment:
+    #   - VARIABLE_NAME=value
