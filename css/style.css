@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+:root {
+  --main-color: #a1887f;
+  --primary-color: #1b5e20;
+  --hover: #f48fb1;
+  --black: #000;
+  --white: #ffffff;
+  --light-bg: #fce4ec;
+  --dark-bg: #1b5e20;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.heading,
+.brand,
+h1 {
+  font-family: "Shrikhand", serif;
+  color: var(--white);
+}
+
+html {
+  font-size: 12px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
+/* navbar - fixed */
+.brand {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+nav ul {
+  margin-right: 2rem;
+}
+
+nav ul a {
+  font-size: 1.5rem;
+}
+
+/*navbar - mobile */
+#mobile-nav a {
+  font-size: 1.5rem;
+}
+
+/* home slider */
+.slider .indicators .indicator-item.active {
+  background-color: var(--main-color);
+}
+
+.slider .indicators .indicator-item {
+  background-color: #ebe6e6;
+}
+
+/* about styling */
+#about {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#about .heading {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.card-panel {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+}
+
+.hidden-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  font-size: 1.5rem;
+}
+
+.show {
+  max-height: 300px;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+
+/* stylist styling */
+#stylist .heading {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.row .card {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.row .card h2 {
+  text-align: center;
+}
+
+.row .card img {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+/* booking styling */
+form {
+  height: 60vh;
+}
+
+/* contact styling */
+.contact {
+  height: 60vh;
+}
+
+.contact-box {
+  border-radius: 10px;
+  padding: 5px 20px 100px 20px;
+  margin: 20px;
+}
+/* review styling */
+.reviews {
+  height: 55vh;
+}
+
+.reviews-box {
+  border-radius: 10px;
+  padding: 5px 20px 100px 20px;
+  margin: 20px;
+}
+
+/* footer styling */
+.page-footer {
+  font-size: 1.2rem;
+  color: black;
+  padding: 1rem;
+}
+
+.page-footer a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+  .brand {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .brand {
+    font-size: 1.125rem;
+  }
+}
