@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   M.Slider.init(slider, {
     height: 650,
     transition: 500,
-    interval: 400000,
+    interval: 4000,
   });
 
   // about cards
