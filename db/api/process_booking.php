@@ -22,7 +22,7 @@ $date = isset($_POST['date']) ? $_POST['date'] : null;
 $time = isset($_POST['time']) ? $_POST['time'] : null;
 
 
-//creaate customer
+//create customer
 $customer->name = $name;
 $customer->email = $email;
 $customerResult = $customer->create();

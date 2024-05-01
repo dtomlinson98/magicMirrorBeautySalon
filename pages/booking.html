@@ -130,12 +130,33 @@
         <div class="input-field">
           <select id="service" name="service" required>
             <option value="" disabled selected>Choose your service</option>
-            <option value="Haircut">Haircut</option>
-            <option value="Hair Coloring">Hair Coloring</option>
-            <option value="Manicure">Manicure</option>
-            <option value="Pedicure">Pedicure</option>
-            <option value="Facial">Facial</option>
-            <option value="Massage">Massage</option>
+            <optgroup label="Haircuts">
+              <option value="Boy">Boy - Haircut</option>
+              <option value="Girl">Girl - Haircut</option>
+              <option value="Man">Man - Haircut</option>
+              <option value="Women">Women - Haircut</option>
+            </optgroup>
+            <optgroup label="Coloring">
+              <option value="Single">Single - Coloring</option>
+              <option value="Foilyage">Foilyage - Coloring</option>
+              <option value="Correction">Correction - Coloring</option>
+            </optgroup>
+            <optgroup label="Eyebrows">
+              <option value="Wax">Wax - Eyebrows</option>
+              <option value="Shape & Tint Eyebrows">
+                Shape & Tint - Eyebrows
+              </option>
+              <option value="Thread">Thread - Eyebrows</option>
+            </optgroup>
+            <optgroup label="Toner & Treatment">
+              <option value="Toner">Toner - Toner & Treatment</option>
+              <option value="Moisturizing Treatment">
+                Moisturizing Treatment - Toner & Treatment
+              </option>
+              <option value="Gloss Treatment">
+                Gloss Treatment - Toner & Treatment
+              </option>
+            </optgroup>
           </select>
           <label for="service">Service</label>
         </div>

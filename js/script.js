@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   M.Slider.init(slider, {
     height: 650,
     transition: 500,
-    interval: 4000,
+    interval: 400000,
   });
 
   // about cards
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const panel = this.parentElement;
       const hiddenText = panel.querySelector(".hidden-text");
 
-      // Toggle the visibility of hidden text
+      // visibility of hidden text
       hiddenText.classList.toggle("show");
     });
   });

@@ -24,8 +24,8 @@ $appointment->date = isset($data->date) ? $data->date : null;
 $appointment->time = isset($data->time) ? $data->time : null;
 
 // Debugging
-echo "Raw Data: " . json_encode($data); // Output the raw data received from the form
-echo "Appointment Object: " . json_encode($appointment); // Output the Appointment object after assigning data
+/* echo "Raw Data: " . json_encode($data); // Output the raw data received from the form
+echo "Appointment Object: " . json_encode($appointment); // Output the Appointment object after assigning data */
 
 //create and get the response
 $response = $appointment->create();
