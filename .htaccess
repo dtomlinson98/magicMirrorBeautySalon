@@ -1,9 +1,0 @@
-SetEnv USERNAME "quotesdb_dlo9_user"
-
-SetEnv PASSWORD "a15XdHSunN6pxwnJRddymmpgXqbkYUna"
-
-SetEnv DBNAME "quotesdb_dlo9"
-
-SetEnv HOST "dpg-cnj7u0ud3nmc73dgcntg-a.oregon-postgres.render.com"
-
-SetEnv PORT "5432"
